@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launch_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LaunchActivity">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="370dp"
+        android:background="@color/waterLayoutcolor_Launch"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/launch_signin_bt_id"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:background="@drawable/home_all_button_pic"
+            android:text="Sign in"
+            android:textColor="@color/darkBlue"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/launch_or_tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Or"
+            android:textColor="@color/darkBlue"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/launch_seepost_bt_id"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:background="@drawable/home_all_button_pic"
+            android:text="See all post"
+            android:textColor="@color/darkBlue"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
